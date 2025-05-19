@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.borrower-verification]
+path = 'contracts/borrower-verification.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.lender-verification]
 path = 'contracts/lender-verification.clar'
 clarity_version = 2
@@ -12,11 +17,6 @@ epoch = 2.5
 
 [contracts.lending-pool-admin]
 path = 'contracts/lending-pool-admin.clar'
-clarity_version = 2
-epoch = 2.5
-
-[contracts.repayment-tracking]
-path = 'contracts/repayment-tracking.clar'
 clarity_version = 2
 epoch = 2.5
 
